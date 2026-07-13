@@ -1,30 +1,34 @@
- /* nav section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav section */
 .nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    padding: 20px 0;
 }
-.logo{
-    height: 35px;
-    width: auto;
-    gap: 10px;
+.logo img{
+    height: 40px;
 }
 .list{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     color: #575757;
 
 }
 .button{
 
-    background-color: blue;
+    background-color: #2563eb;
     color:white;
-    font-weight: bold;
-    border-radius: 12px;
-    padding: 12px 12px;
+    font-weight: 600;
+    border-radius:10px;
+    padding: 14px 24px;
     border: none;
 }
 .hero{
@@ -34,7 +38,6 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,100 +48,134 @@
     font-size: 80px;
     font-weight: bold;
     color: white;
+    margin-bottom: 20px;
 }
 .hero p{
     color:#FFFFFF;
-    width: 500px;
-    font-size: 20px;
+    width: 700px;
+    max-width: 90%;
+    font-size: 18px;
+    line-height:1.6;
 }
 .hero .button{
-    margin-top: 30px;
+    margin-top: 150px;
     
 }
 .center{
-    font-size: 900;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700;
     text-align: center;
-    border: #FFFFFF;
-    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.speakers-section{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .speakers{
     display: grid;
     grid-template-columns:repeat(2,1fr);
     gap: 30px;
-    justify-content: space-between;
-    align-items: center;
+}
+.speaker-card{
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.speaker-card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.speaker-info{
+    padding: 20px;
 }
 .category{
     color: blue;
+    font-size: 12px;
+    font-weight: 700;
 }
-.speaker-card{
-    border-radius: 60px;
-    padding: 60px;
-    border-color: #575757;
+.speaker-card h2{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.speaker-card p{
+    color:#666
 }
 .pricing-head{
     text-align: center;
-    font-weight: bold;
-    border: #FFFFFF;
-    gap: 10px;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 100px;
 }
 .pricing-p{
-    color: #575757;
-    font-size: small;
+    color: #666;
+    margin-top: 10px;
     text-align: center;
 }
 .pricing{
+    max-width: 1200px;
+    margin: 50px auto;
     display: flex;
-    justify-content: space-between;
-    padding:30px;
-    gap: 10px;
+    gap: 25px;
 }
-.pricing1 .button1{
-    color: blue;
-    border-color: #1a1919;
-    background-color: white;
-    padding: 20px;
-    border-radius:20px;
-    text-align: center;
-}
-.pricing3 .button3{
-    color: #575757;
-    border-color: #575757;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-}
-.pricing1 .pricing3{
-    border-color:#1a1919;
+.pricing1,.pricing3{
+    border-color:white;
+    border: 1px solid ;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 15px;
+    flex: 1;
 }
 .pricing2{
+    flex: 1;
     background-color:rgb(11, 11, 34);
     color: white;
     padding:30px;
-    border-radius: 30px;
+    border-radius: 15px;
+}
+.pricing2 .button{
+    width: 100%;
+    margin-top: 30px;
 }
 .bold-color{
-    font-weight: bold;
-    font-size: 700;
+    font-weight: 700;
+    font-size: 45px;
+    margin:10px 0;
+}
+.pricing ul{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.pricing li{
+    margin-bottom: 10px;
+}
+.button1{
+    margin-top: 30px;
+    width: 100%;
+    padding:14px;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    background: white;
+    border-radius: 10px;
+}
+.button3{
+    margin-top: 30px;
+    width: 100%;
+    padding: 14px;
+    background: white;
+    border: 1px solid #666;
+    border-radius: 10px;
 }
 .footer{
     background-color: rgb(3, 3, 31);
     color: azure;
+    margin-top:80px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    margin: 0;
+    align-items: center;
 }
-.list{
-    list-style: none;
-    border: 20px;
-    padding: 20px;
-}
-.footer p{
-    color:azure;
-    border: 20px;
-    padding:20px;
+.footer .list{
+    color:white
 }

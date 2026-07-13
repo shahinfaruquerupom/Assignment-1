@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* nav section */
+/* nav section start */
 .nav{
     display: flex;
     justify-content:space-between;
@@ -31,6 +31,8 @@
     padding: 14px 24px;
     border: none;
 }
+/* nav section end */
+/* hero section start */
 .hero{
     background-image: url(./assets/banner.jpg);
     background-color: #1a1919;
@@ -58,9 +60,11 @@
     line-height:1.6;
 }
 .hero .button{
-    margin-top: 150px;
+    margin-top: 120px;
     
 }
+/* hero section end */
+/* speakers section start */
 .center{
     font-size: 50px;
     font-weight: 700;
@@ -103,6 +107,8 @@
 .speaker-card p{
     color:#666
 }
+/* speakers section end */
+/* pricing section start */
 .pricing-head{
     text-align: center;
     font-size: 55px;
@@ -167,6 +173,61 @@
     border: 1px solid #666;
     border-radius: 10px;
 }
+/* pricing section end */
+/* something missing section start */
+.hackathon-section{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 60px;
+    background: #eef2ff;
+    border: 2px dashed #7c3aed;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hackathon-content h2{
+    font-size: 48px;
+    color: #7c3aed;
+    margin-bottom: 20px;
+}
+
+.hackathon-content p{
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.hackathon-cards{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.hack-card{
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.hack-card h3{
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.hack-btn{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* something missing section end */
+/* footer section start */
 .footer{
     background-color: rgb(3, 3, 31);
     color: azure;
@@ -179,3 +240,4 @@
 .footer .list{
     color:white
 }
+/* footer section end */

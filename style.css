@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /* nav section start */
 .nav{
@@ -10,7 +9,7 @@
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 .logo img{
     height: 40px;
@@ -37,7 +36,6 @@
     background-image: url(./assets/banner.jpg);
     background-color: #1a1919;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     height: 700px;
     display: flex;
@@ -55,9 +53,7 @@
 .hero p{
     color:#FFFFFF;
     width: 700px;
-    max-width: 90%;
     font-size: 18px;
-    line-height:1.6;
 }
 .hero .button{
     margin-top: 120px;
@@ -90,7 +86,6 @@
 .speaker-card img{
     width: 100%;
     height: 280px;
-    object-fit: cover;
 }
 .speaker-info{
     padding: 20px;
@@ -134,11 +129,11 @@
     flex: 1;
 }
 .pricing2{
-    flex: 1;
-    background-color:rgb(11, 11, 34);
+    background-color:rgb(12, 12, 43);
     color: white;
     padding:30px;
     border-radius: 15px;
+    flex: 1;
 }
 .pricing2 .button{
     width: 100%;
@@ -157,16 +152,14 @@
     margin-bottom: 10px;
 }
 .button1{
-    margin-top: 30px;
     width: 100%;
     padding:14px;
-    border: 1px solid #2563eb;
-    color: #2563eb;
+    border: 1px solid blue;
+    color:blue;
     background: white;
     border-radius: 10px;
 }
 .button3{
-    margin-top: 30px;
     width: 100%;
     padding: 14px;
     background: white;
@@ -231,7 +224,6 @@
 .footer{
     background-color: rgb(3, 3, 31);
     color: azure;
-    margin-top:80px;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
